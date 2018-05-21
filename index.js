@@ -28,3 +28,7 @@ function driversByName(array) {
     return a.name.localeCompare(b.name)
   })
 }
+
+function totalRevenue(array) {
+  
+}
