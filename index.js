@@ -1,6 +1,6 @@
 // Code your solution in this file!
 const first = function (el, i, arr) {
-  console.log(el)
+  console.log(el[name])
 }
 
 
