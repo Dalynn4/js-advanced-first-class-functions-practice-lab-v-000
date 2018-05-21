@@ -22,5 +22,7 @@ function driversByRevenue(array) {
     if (a.revenue < b.revenue)
     return -1;
     if (a.reveune > b.revenue)
+    return 1;
+    return 0;
   }
 }
