@@ -19,7 +19,7 @@ function logDriversByHometown(array, location) {
 
 function driversByRevenue(array) {
 
-  array.sort(function (a, b) {
+  array.sort(function (num1, num2) {
     return a.localeCompare(b)
   })
 }
