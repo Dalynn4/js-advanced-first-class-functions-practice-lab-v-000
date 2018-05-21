@@ -5,5 +5,5 @@ const first = function (el, i, arr) {
 
 
 function logDriverNames(array) {
-  array.foreach(array)
+  array.foreach.first)
 })
