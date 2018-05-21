@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const first = function ()
+const first = function (el, i, arr)
 
 
 function logDriverNames(array) {
