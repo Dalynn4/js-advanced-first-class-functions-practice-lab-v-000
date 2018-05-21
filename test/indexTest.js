@@ -65,13 +65,6 @@ describe('index.js', function () {
   
 
 
-  describe('driversByName()', function () {
-    it('uses the sort() method to return a new array of drivers ordered alphabetically by name (A to Z)', function () {
-      expect(driversByName(drivers)[0].name).to.eql('Annette');
-
-      expect(driversByName(drivers)[drivers.length - 1].name).to.eql('Sammy');
-    });
-  });
 
   describe('totalRevenue()', function () {
     it('uses the reduce() method to sum the revenue of every driver and return the total', function () {
