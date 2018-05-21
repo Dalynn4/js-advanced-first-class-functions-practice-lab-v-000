@@ -7,3 +7,7 @@ const first = function (el, i, arr) {
 function logDriverNames(array) {
   array.forEach(first)
 }
+
+function logDriversByHometown(array, location) {
+  
+}
