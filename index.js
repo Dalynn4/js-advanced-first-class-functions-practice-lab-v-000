@@ -22,3 +22,9 @@ function driversByRevenue(array) {
   return a.revenue - b.revenue 
   })
 }
+
+function driversByName(array) {
+  array.sort(function (a, b){
+    return a.name.localeCompare(b.name)
+  })
+}
